@@ -38,7 +38,7 @@
 		<div class="col">
 			<div class="">
 				<div id="ballPosition"></div>
-				<div id="FPS"></div>
+				<div id="ballSpeed"></div>
 			</div>
 		</div>
 	</div>
@@ -46,7 +46,9 @@
 
   <script>
   	let ctx = document.getElementById("canvas").getContext("2d");
-		let board = new Board(ctx, 400, 400);
+		let board = new Board(ctx, {
+
+    });
 		board.addBall();
   </script>
 </body>
