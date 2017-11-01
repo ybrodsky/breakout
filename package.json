@@ -1,0 +1,25 @@
+{
+  "name": "breakout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ybrodsky/breakout.git"
+  },
+  "author": "Yael Brodsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ybrodsky/breakout/issues"
+  },
+  "homepage": "https://github.com/ybrodsky/breakout#readme",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.5",
+    "@babel/preset-env": "^7.0.0-beta.5",
+    "babel-loader": "^8.0.0-beta.0",
+    "webpack": "^3.8.1"
+  }
+}
